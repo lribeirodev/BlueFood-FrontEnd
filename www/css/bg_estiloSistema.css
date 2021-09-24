@@ -1,0 +1,166 @@
+/* TAG GERAL */
+
+*{
+    font-family: Verdana;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: #1e9bee;
+    background-color: #eeeeee;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 10px solid #1e9bee;
+    border-right: 10px solid #1e9bee;
+    border-top: 2px solid #1e9bee;
+    border-bottom: 2px solid #1e9bee;
+    border-radius: 30px;
+}
+
+fieldset{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+}
+
+input, textarea, select{
+    border: 2px solid #1e9bee;
+    height: 35px;
+    margin-bottom: 6px;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+input[type=text],[type=password],select{
+    font-size: 16px;
+    width: 140px;
+    padding-left: 5px;
+}
+
+input[type=button],[type=submit]{
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #1e9bee;
+    
+    border-bottom: 3px solid #0153b0;
+    border-top: 1px solid #0153b0;
+    border-left: 1px solid #0153b0;
+    border-right: 1px solid #0153b0;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+input[type=button]:hover,[type=submit]:hover{
+    background-color: #69c5ee;
+    border-color: #1e9bee;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    font-size: 14px;
+    border-spacing: 3px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd){
+    background-color: #ffffff;
+}
+
+th{
+    background-color: #1e9bee;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+
+/* HEADER */
+
+#divLogoTipoSistema{
+    background-color: #1e9bee;
+    height: 70px;
+}
+
+#divLogoTipoSistema span{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#divLogoTipoSistema img{
+    height: 60%;
+    vertical-align: middle;
+}
+
+#imgIconeUsuario{
+    width: 100px;
+}
+
+#mensagemDeErro{
+    background-color: #b40000;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+/* HEADER USUARIO LOGADO */
+
+#divUsuarioLogado{
+    background-color: #7bc2e5;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+#divUsuarioLogado img{
+    height: 50px;
+}
+
+/* CLIENTE HOME */
+#divCategoriaComida{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+#divCategoriaComida div{
+    height: 130px;
+   float:left;
+}
+
+#divCategoriaComida img{
+    height: 50%;
+}
+
+#fieldsetFiltros{
+    border-width: 3px;
+}
