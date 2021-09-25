@@ -25,10 +25,62 @@
     <!-- Cabeçalho - Fim -->
     
     <div>
+        <h1>É hora de rangar!</h1>
+        <form method="POST" action="">
+            <fieldset id="fieldsetFiltros">
+                <input type="text" name="busca" id="" placeholder="Buscar por..." />
+                <input type="button" value="Procurar" />
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="divCategoriaComida">
+        <div>
+            <a href="#">
+                <img src="images/sys_categoriaChurrasco.png">
+                <br />
+                <span>Churrasco</span>
+            </a>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="images/sys_categoriaHamburguer.png">
+                <br />
+                <span>Hamburguer</span>
+            </a>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="images/sys_categoriaPizza.png">
+                <br />
+                <span>Pizza</span>
+            </a>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="images/sys_categoriaSalada.png">
+                <br />
+                <span>Salada</span>
+            </a>
+        </div>
+
+        <div>
+            <a href="#">
+                <img src="images/sys_categoriaSobremesa.png">
+                <br />
+                <span>Sobremesa</span>
+            </a>
+        </div>
+    </div>
+
+    <div>
         <h1>Resultados</h1>
         <fieldset>
             <legend>Filtros</legend>
-            <input type="button" value="Entrega grátis"><br/>
+            <input type="button" id="botoesBusca" value="Entrega grátis"><br/>
             <input type="button" value="Maior preço">
             <input type="button" value="Menor preço"><br/>
             <input type="button" value="Maior taxa">
@@ -38,7 +90,7 @@
         </fieldset>
     </div>
 
-    <div>
+    <div id="resultadoBusca">
 
         <div>
             <a href="#">
